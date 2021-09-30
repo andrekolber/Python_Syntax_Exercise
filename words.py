@@ -1,11 +1,11 @@
-# def print_upper_words(words):
-#     '''takes a list of words and uppercases each word and prints each word on a seperate line'''
-#     for word in range(len(words)):
-#         words[word] = words[word].upper()
-#         print(words[word])
+def print_upper_words(words):
+    '''takes a list of words and uppercases each word and prints each word on a seperate line'''
+    for word in range(len(words)):
+        words[word] = words[word].upper()
+        print(words[word])
     
 
-# print_upper_words(['hello', 'goodbye', 'sayonara'])
+print_upper_words(['hello', 'goodbye', 'sayonara'])
 
 def print_upper_words_e(words, letter1, letter2):
     '''takes a list of words and only prints the words that start with the letter 'e'.'''
